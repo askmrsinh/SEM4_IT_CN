@@ -1,0 +1,28 @@
+This is hamming code error detection and correction using EVEN parity
+Enter 4 data bits.D4 D3 D2 D1
+Enter the value of D4
+1
+Enter the value of D3
+0
+Enter the value of D2
+1
+Enter the value of D1
+0
+3 parity bits are required for the transmission of data bits.
+SENDER:
+The data bits entered are: 1 0 1 0
+The Parity bits are:
+Value of P3 is 0
+Value of P2 is 1
+Value of P1 is 0
+The Hamming code is as follows :-
+D4 D3 D2 P3 D1 P2 P1
+1 0 1 0 0 1 0
+Enter the hamming code with error at any position of your choice.
+NOTE: ENTER A SPACE AFTER EVERY BIT POSITION.
+Error should be present only at one bit position
+1 0 1 0 1 1 0
+RECEIVER:
+Error is detected at position 3 at the receiving end.
+Correcting the error....
+The correct code is 1 0 1 0 0 1 0
